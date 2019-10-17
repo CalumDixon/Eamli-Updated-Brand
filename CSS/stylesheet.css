@@ -110,9 +110,7 @@ nav {
     transition: 100ms; }
 
 .lock-icon {
-  height: 16px;
-  margin-right: 5px;
-  float: left; }
+  display: none; }
 
 .header-image {
   display: none; }
@@ -319,6 +317,12 @@ nav {
   padding-bottom: 25px; }
 
 @media (min-width: 680px) {
+  .lock-icon {
+    height: 16px;
+    margin-right: 5px;
+    float: left;
+    display: block; }
+
   .particle-js {
     display: block;
     position: absolute;
@@ -351,7 +355,8 @@ nav {
     padding-right: 0;
     width: 100%;
     margin: 0 auto;
-    display: block; }
+    display: block;
+    position: fixed; }
 
   .logo {
     margin-left: 5%; }
@@ -925,7 +930,8 @@ nav {
 
   .testimonial p {
     margin-top: 25px;
-    font-size: 16px; }
+    font-size: 18px;
+    line-height: 175%; }
 
   .testimonial h3 {
     margin-top: 25px;
