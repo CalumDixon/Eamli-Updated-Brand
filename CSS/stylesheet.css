@@ -186,7 +186,7 @@ nav {
 
 .testimonial p {
   color: #A0A3A5;
-  line-height: 155%;
+  line-height: 165%;
   margin-top: 25px;
   hanging-punctuation: first; }
 
@@ -805,7 +805,7 @@ nav {
     display: none; }
 
   .header-content {
-    padding-top: 50px;
+    padding-top: 75px;
     padding-bottom: 125px;
     width: 55%; }
 
