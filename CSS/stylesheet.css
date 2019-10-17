@@ -1,5 +1,6 @@
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased; }
 
 .footer-info-row-2 a {
   text-decoration: underline;
