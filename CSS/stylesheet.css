@@ -224,6 +224,14 @@ nav {
   -webkit-transition: 150ms;
   transition: 150ms; }
 
+.arrow-button path {
+  -webkit-transition: 150ms;
+  transition: 150ms; }
+
+.arrow-button circle {
+  -webkit-transition: 150ms;
+  transition: 150ms; }
+
 .testionimal-2 {
   display: none; }
 
@@ -263,12 +271,16 @@ nav {
   border: none;
   margin-top: 10px;
   color: white;
+  -webkit-transition: 150ms;
+  transition: 150ms;
   font-family: 'roboto', sans-serif;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: 0.5px; }
   .button:hover {
-    background: #11B47C; }
+    background: #11B47C;
+    -webkit-transition: 150ms;
+    transition: 150ms; }
 
 .footer-info {
   padding-top: 25px;
@@ -494,6 +506,14 @@ nav {
 
   .desktop-arrow-button:hover path {
     fill: white;
+    -webkit-transition: 150ms;
+    transition: 150ms; }
+
+  .desktop-arrow-button path {
+    -webkit-transition: 150ms;
+    transition: 150ms; }
+
+  .desktop-arrow-button circle {
     -webkit-transition: 150ms;
     transition: 150ms; }
 

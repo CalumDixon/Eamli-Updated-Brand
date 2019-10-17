@@ -286,6 +286,15 @@ padding: {
   transition: 150ms;
 }
 
+.arrow-button path {
+  transition: 150ms;
+}
+
+
+.arrow-button circle {
+  transition: 150ms;
+}
+
 .testionimal-2 {
   display: none;
 }
@@ -336,6 +345,7 @@ line-height: 155%;
   border: none;
   margin-top:10px;
   color:white;
+  transition: 150ms;
   font: {
     family:'roboto', sans-serif;
     size:15px;
@@ -344,6 +354,7 @@ line-height: 155%;
   letter-spacing: 0.5px;
   &:hover {
     background:#11B47C;
+    transition: 150ms;
   }
 }
 
@@ -627,6 +638,14 @@ transition: 150ms;
 
 .desktop-arrow-button:hover path {
   fill:white;
+  transition: 150ms;
+}
+
+.desktop-arrow-button path {
+  transition: 150ms;
+}
+
+.desktop-arrow-button circle {
   transition: 150ms;
 }
 
