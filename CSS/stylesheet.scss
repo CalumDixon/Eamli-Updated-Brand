@@ -996,8 +996,8 @@ line-height: 175%;
     }
 
     .header-content{
-      padding-top:100px;
-      padding-bottom:100px;
+      padding-top:50px;
+      padding-bottom:125px;
       width:55%;
     }
 
@@ -1031,7 +1031,7 @@ line-height: 175%;
 
     .feature-section {
       padding: {
-        top:100px;
+        top:150px;
         bottom:150px;
       }
       margin:0 auto;
@@ -1094,71 +1094,6 @@ line-height: 175%;
       font-size:24px;
     }
 
-    //* Testmonials Section //*
-
-    .testimonial-intro {
-    padding: {
-      left:0px;
-      right:0px;
-      top:50px;
-    }
-    width:75%;
-    margin:0 auto;
-    }
-
-    .testimonial-scroll-section {
-      padding: {
-        left:0px;
-        right:0px;
-        top:75px;
-        bottom:75px;
-      }
-      width:100%;
-      text-align: center;
-    }
-
-    .testimonial {
-      box-sizing: border-box;
-      white-space:normal;
-      margin-right: 0px;
-      width:65%;
-      margin: 0 auto;
-      display: block;
-      animation-name:fade;
-      animation-duration: 0.4s;
-      text-align:left
-    }
-
-    .testimonial-buttons{
-    display: none;
-    }
-
-    .desktop-arrow-button-right {
-    vertical-align: middle;
-    display: inline;
-    margin-left: 25px;
-    margin-top: -250px;
-    transition: 150ms;
-    }
-
-    .desktop-arrow-button-left {
-    vertical-align: middle;
-    display: inline;
-    margin-right: 25px;
-    margin-top: -275px;
-    transition: 150ms;
-    }
-
-    .desktop-arrow-button:hover circle {
-      fill:$brand-blue;
-      transition: 150ms;
-    }
-
-    .desktop-arrow-button:hover path {
-      fill:white;
-      transition: 150ms;
-    }
-
 
     //* Testmonials Section //*
 
@@ -1182,8 +1117,8 @@ line-height: 175%;
       padding: {
         left:0px;
         right:0px;
-        top:25px;
-        bottom:125px;
+        top:50px;
+        bottom:150px;
       }
       width:100%;
       text-align: center;
@@ -1232,8 +1167,8 @@ line-height: 175%;
     .sign-up-footer {
       background:#152E54;
       padding: {
-        top:125px;
-        bottom:125px;
+        top:150px;
+        bottom:150px;
         right:25px;
         left:25px;
 
@@ -1282,6 +1217,7 @@ line-height: 175%;
       width: 45%;
       margin:0 auto;
       display:block;
+      margin-top: 25px;
     }
 
 }

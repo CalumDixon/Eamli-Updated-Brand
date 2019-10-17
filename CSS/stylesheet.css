@@ -779,8 +779,8 @@ nav {
     display: none; }
 
   .header-content {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 125px;
     width: 55%; }
 
   .header-content p {
@@ -805,7 +805,7 @@ nav {
     border-bottom: 1px solid #EEF1F4; }
 
   .feature-section {
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 150px;
     margin: 0 auto;
     display: block; }
@@ -857,64 +857,6 @@ nav {
   .testimonial-intro {
     padding-left: 0px;
     padding-right: 0px;
-    padding-top: 50px;
-    width: 75%;
-    margin: 0 auto; }
-
-  .testimonial-scroll-section {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    width: 100%;
-    text-align: center; }
-
-  .testimonial {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    white-space: normal;
-    margin-right: 0px;
-    width: 65%;
-    margin: 0 auto;
-    display: block;
-    -webkit-animation-name: fade;
-            animation-name: fade;
-    -webkit-animation-duration: 0.4s;
-            animation-duration: 0.4s;
-    text-align: left; }
-
-  .testimonial-buttons {
-    display: none; }
-
-  .desktop-arrow-button-right {
-    vertical-align: middle;
-    display: inline;
-    margin-left: 25px;
-    margin-top: -250px;
-    -webkit-transition: 150ms;
-    transition: 150ms; }
-
-  .desktop-arrow-button-left {
-    vertical-align: middle;
-    display: inline;
-    margin-right: 25px;
-    margin-top: -275px;
-    -webkit-transition: 150ms;
-    transition: 150ms; }
-
-  .desktop-arrow-button:hover circle {
-    fill: #007DE5;
-    -webkit-transition: 150ms;
-    transition: 150ms; }
-
-  .desktop-arrow-button:hover path {
-    fill: white;
-    -webkit-transition: 150ms;
-    transition: 150ms; }
-
-  .testimonial-intro {
-    padding-left: 0px;
-    padding-right: 0px;
     padding-top: 100px;
     width: 55%;
     margin: 0 auto; }
@@ -927,8 +869,8 @@ nav {
   .testimonial-scroll-section {
     padding-left: 0px;
     padding-right: 0px;
-    padding-top: 25px;
-    padding-bottom: 125px;
+    padding-top: 50px;
+    padding-bottom: 150px;
     width: 100%;
     text-align: center; }
 
@@ -970,8 +912,8 @@ nav {
 
   .sign-up-footer {
     background: #152E54;
-    padding-top: 125px;
-    padding-bottom: 125px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     padding-right: 25px;
     padding-left: 25px; }
 
@@ -1010,7 +952,8 @@ nav {
   #mc_embed_signup_scroll {
     width: 45%;
     margin: 0 auto;
-    display: block; } }
+    display: block;
+    margin-top: 25px; } }
 @media (min-width: 1920px) {
   .particle-js {
     height: 1000px;
