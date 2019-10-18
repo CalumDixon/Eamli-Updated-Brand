@@ -356,7 +356,8 @@ nav {
     width: 100%;
     margin: 0 auto;
     display: block;
-    position: fixed; }
+    position: fixed;
+    z-index: 200; }
 
   .logo {
     margin-left: 5%; }
@@ -366,13 +367,13 @@ nav {
 
   header {
     border-bottom: 1px solid #EEF1F4;
-    padding-bottom: 75px;
-    padding-top: 50px; }
+    padding-bottom: 100px;
+    padding-top: 100px; }
 
   .header-image {
     width: 75%;
     position: relative;
-    z-index: 200;
+    z-index: 175;
     margin: 0 auto;
     display: block;
     border: none;
@@ -387,7 +388,7 @@ nav {
     display: block;
     width: 75%;
     margin: 0 auto;
-    padding-bottom: 40px; }
+    padding-bottom: 50px; }
 
   .header-content p {
     font-size: 16px;
@@ -620,17 +621,18 @@ nav {
     padding-right: 0;
     width: 100%;
     margin: 0 auto;
-    display: block; }
+    display: block;
+    z-index: 200; }
 
   header {
     border-bottom: 1px solid #EEF1F4;
     padding-bottom: 75px;
-    padding-top: 50px; }
+    padding-top: 25px; }
 
   .header-image {
     width: 65%;
     position: relative;
-    z-index: 200;
+    z-index: 175;
     margin: 0 auto;
     display: block;
     border: none;
@@ -645,8 +647,14 @@ nav {
     display: block;
     width: 65%;
     margin: 0 auto;
-    padding-top: 25px;
+    padding-top: 100px;
     padding-bottom: 75px; }
+
+  .header-content p {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px; }
 
   .feature-section {
     padding-top: 100px;
@@ -665,7 +673,7 @@ nav {
   .testimonial-scroll-section {
     padding-left: 0px;
     padding-right: 0px;
-    padding-top: 100px;
+    padding-top: 75px;
     padding-bottom: 100px;
     width: 100%;
     text-align: center; }
@@ -767,7 +775,16 @@ nav {
     padding: 0; }
 
   .email-footer {
-    float: right; } }
+    float: right; }
+
+  .testimonial p {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 175%; }
+
+  .testimonial h3 {
+    margin-top: 25px;
+    font-size: 18px; } }
 @media (min-width: 1440px) {
   .particle-js {
     display: block;
@@ -788,12 +805,12 @@ nav {
   header {
     border-bottom: 1px solid #EEF1F4;
     padding-bottom: 100px;
-    padding-top: 50px; }
+    padding-top: 100px; }
 
   .header-image {
     width: 60%;
     position: relative;
-    z-index: 200;
+    z-index: 175;
     margin: 0 auto;
     display: block;
     border: none;
@@ -805,7 +822,7 @@ nav {
     display: none; }
 
   .header-content {
-    padding-top: 75px;
+    padding-top: 50px;
     padding-bottom: 125px;
     width: 55%; }
 
@@ -1002,7 +1019,8 @@ nav {
     padding-right: 0;
     width: 100%;
     margin: 0 auto;
-    display: block; }
+    display: block;
+    z-index: 200; }
 
   .logo {
     margin-left: 5%; }
@@ -1016,7 +1034,8 @@ nav {
     padding-top: 50px; }
 
   .header-image {
-    width: 50%; }
+    width: 50%;
+    z-index: 175; }
 
   .header-content-mobile {
     display: none; }
