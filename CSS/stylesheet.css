@@ -103,7 +103,8 @@ nav {
   color: white;
   border-radius: 3px;
   border: none;
-  float: right; }
+  float: right;
+  cursor: pointer; }
   .header-button:hover {
     background-color: #1173CC;
     -webkit-transition: 100ms;
@@ -210,7 +211,8 @@ nav {
 .arrow-button {
   margin: 0 auto;
   margin-left: 25px;
-  margin-right: 25px; }
+  margin-right: 25px;
+  cursor: pointer; }
 
 .arrow-button:hover circle {
   fill: #007DE5;
@@ -271,6 +273,7 @@ nav {
   color: white;
   -webkit-transition: 150ms;
   transition: 150ms;
+  cursor: pointer;
   font-family: 'roboto', sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -303,10 +306,12 @@ nav {
   display: none; }
 
 .desktop-arrow-button-left {
-  display: none; }
+  display: none;
+  cursor: pointer; }
 
 .desktop-arrow-button-right {
-  display: none; }
+  display: none;
+  cursor: pointer; }
 
 .footer-info-row-2 p {
   display: block; }
@@ -495,7 +500,8 @@ nav {
     margin-left: 25px;
     margin-top: -250px;
     -webkit-transition: 150ms;
-    transition: 150ms; }
+    transition: 150ms;
+    cursor: pointer; }
 
   .desktop-arrow-button-left {
     vertical-align: middle;
@@ -503,7 +509,8 @@ nav {
     margin-right: 25px;
     margin-top: -275px;
     -webkit-transition: 150ms;
-    transition: 150ms; }
+    transition: 150ms;
+    cursor: pointer; }
 
   .desktop-arrow-button:hover circle {
     fill: #007DE5;
@@ -736,6 +743,7 @@ nav {
 
   .button {
     height: 50px;
+    cursor: pointer;
     background: #6FCF97;
     width: 215px;
     padding-left: 30px;

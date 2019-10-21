@@ -131,7 +131,7 @@ nav {
   border-radius: 3px;
   border:none;
   float:right;
-
+  cursor: pointer;
   &:hover {
     background-color:#1173CC;
     transition: 100ms;
@@ -272,6 +272,7 @@ padding: {
   margin:0 auto;
   margin-left:25px;
   margin-right: 25px;
+  cursor: pointer;
 }
 
 .arrow-button:hover circle {
@@ -344,6 +345,7 @@ line-height: 155%;
   margin-top:10px;
   color:white;
   transition: 150ms;
+  cursor: pointer;
   font: {
     family:'roboto', sans-serif;
     size:15px;
@@ -388,10 +390,12 @@ line-height: 155%;
 
   .desktop-arrow-button-left {
     display: none;
+    cursor: pointer;
   }
 
   .desktop-arrow-button-right {
     display: none;
+    cursor: pointer;
   }
 
   .footer-info-row-2 p {
@@ -628,6 +632,7 @@ display: inline;
 margin-left: 25px;
 margin-top: -250px;
 transition: 150ms;
+cursor: pointer;
 }
 
 .desktop-arrow-button-left {
@@ -636,6 +641,7 @@ display: inline;
 margin-right: 25px;
 margin-top: -275px;
 transition: 150ms;
+cursor: pointer;
 }
 
 .desktop-arrow-button:hover circle {
@@ -933,6 +939,7 @@ line-height: 175%;
 
     .button {
       height:50px;
+      cursor: pointer;
       background:#6FCF97;
       width:215px;
       padding-left:30px;
